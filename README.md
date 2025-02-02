@@ -61,6 +61,6 @@
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/SARAMALI15792/SARAMALI15792/output/github-contribution-grid-snake-dark.svg)
+
 
 </div>
