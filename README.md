@@ -26,9 +26,11 @@
 
 ---
 
-### 🌟 **Featured Project** 🌟
+### 🌟 **Featured Projects** 🌟
 
 <div align="center">
+
+[![Chainlit Chatbot](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=chain_lit_bot_model&theme=nightowl&show_owner=true&border_color=00ffff&bg_color=0d1117&show_icons=true&icon_color=00ffff)](https://github.com/SARAMALI15792/chain_lit_bot_model)
 
 [![URL Converter](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=url-to-textconverter-&theme=nightowl&show_owner=true&border_color=00ffff&bg_color=0d1117&show_icons=true&icon_color=00ffff)](https://github.com/SARAMALI15792/url-to-textconverter-)
 
