@@ -6,9 +6,13 @@
 
 ---
 
+
 <div align="center">
-  ![3D Profile](https://github.com/SARAMALI15792/repository_name/blob/main/assets/3d-profile-image.png)
+  
+  [![3D Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SARAMALI15792&theme=github_dark&bg_color=0d1117&border_color=00ffff&border_radius=12)](https://github.com/SARAMALI15792)
+
   ![Visitor Count](https://komarev.com/ghpvc/?username=SARAMALI15792&label=Profile%20Views&color=00ffff&style=flat)
+
 </div>
 
 ---
