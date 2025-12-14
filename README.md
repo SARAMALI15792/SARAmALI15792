@@ -107,6 +107,24 @@ I would be glad to connect 🤝.
 
 ---
 
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 👟 [Sneakora Tech](https://github.com/SARAMALI15792/Sneakora_tec)
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=Sneakora_tec&theme=merko&hide_border=false)](https://github.com/SARAMALI15792/Sneakora_tec)
+
+**Tech Stack:** `AI` `Automation` `Python` `FastAPI`
+
+A cutting-edge AI-powered application showcasing agentic AI capabilities and automation workflows.
+
+[🔗 View Project](https://github.com/SARAMALI15792/Sneakora_tec) • [⭐ Star](https://github.com/SARAMALI15792/Sneakora_tec)
+
+</div>
+
+---
+
 <div align="center">
   
 **💬 Let's build something amazing together!**
