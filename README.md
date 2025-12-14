@@ -86,6 +86,14 @@ I would be glad to connect 🤝.
 
 ---
 
+## 🐍 Contribution Snake
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
+---
+
 <div align="center">
   
 **💬 Let's build something amazing together!**
