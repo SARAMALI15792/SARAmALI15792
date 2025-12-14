@@ -1,13 +1,13 @@
+<div align="right">
+  
+![Profile Views](https://komarev.com/ghpvc/?username=SARAMALI15792&color=blueviolet&style=flat-square&label=Profile+Views)
+
+</div>
+
 # Hi there! 👋 I'm
 <div align="center">
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=00F7F4&center=true&vCenter=true&width=435&lines=SARAM+ALI;Agentic+AI+Engineer;AI-Native+Developer)](https://git.io/typing-svg)
-
-</div>
-
-<div align="right">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=SARAMALI15792&color=blueviolet&style=flat-square&label=Profile+Views)
 
 </div>
 
