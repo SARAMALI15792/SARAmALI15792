@@ -1,86 +1,27 @@
-<h1 align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=800&color=00F7FF&center=true&vCenter=true&width=680&lines=%F0%9F%9A%80+HELLO+WORLD+!;I'M+SARAM+ALI;AGENTIC+AI+ENGINEER;&center=true&repeat=true">
-  </a>
-</h1>
+# 💫 About Me:
+I am an Agentic AI Engineer from Pakistan 🇵🇰 with a strong interest in building autonomous AI agents 🤖 and AI-driven systems.<br><br>Currently, I am working on AI-native development, where artificial intelligence is a core part of the application design rather than an add-on feature. My work focuses on creating agents that can interact with tools, browsers, and APIs to perform tasks autonomously.<br><br>I have experience working with:<br><br>OpenAI SDK and agent-based frameworks<br><br>Browser automation and tool-integrated agents 🌐<br><br>AI-powered workflows and automation systems ⚙️<br><br>I am continuously learning and improving my skills by building practical projects and exploring new approaches in agentic AI 📚.<br><br>If you would like to collaborate or have any questions, feel free to contact me.<br>I would be glad to connect 🤝.
+
+
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/saram_ali001) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/SARAM ALI) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/SARAM ALI) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saramali15792@gmail.com) 
+
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat-square&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat-square&logo=windows-terminal&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat-square&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat-square&logo=pandas&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=flat-square&logo=playwright&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=SARAMALI15792&theme=merko&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=SARAMALI15792&theme=merko&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=SARAMALI15792&theme=merko&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=SARAMALI15792&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=SARAMALI15792&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=SARAMALI15792&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
-<div align="center">
-  
-  [![3D Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SARAMALI15792&theme=github_dark&bg_color=0d1117&border_color=00ffff&border_radius=12)](https://github.com/SARAMALI15792)
-
-  ![Visitor Count](https://komarev.com/ghpvc/?username=SARAMALI15792&label=Profile%20Views&color=00ffff&style=flat)
-
-</div>
-
----
-
-### 👨‍💻 **About Me** 👨‍💻
-
-I am an **Agentic AI Engineer from Pakistan**, passionate about creating **autonomous agents**.  
-I work with various frameworks such as the **OpenAI SDK** and **browser-based agents**.
-
-If you're interested in working with me or have any queries —  
-**Feel free to contact me!**  
-We are here to hear from you and would love your kind response 😊
-
----
-
-### 🎓 **Education** 🎓
-
-- **Intermediate** from *Fazaia Inter College, Rawalpindi*
-
----
-
-### 🚀 **Tech Stack** 🚀
-
-<div align="center" style="display: flex; gap: 10px; justify-content: center">
-
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000&effect=3d&animation=glow)](https://www.python.org/)
-[![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&labelColor=000&effect=3d&animation=glow)](https://isocpp.org/)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000&labelColor=000&effect=3d&animation=glow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=000&effect=3d&animation=glow)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=000&effect=3d&animation=glow)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
-</div>
-
----
-
-### 🌟 **Featured Projects** 🌟
-
-<div align="center">
-
-[![Chainlit Chatbot](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=chain_lit_bot_model&theme=nightowl&show_owner=true&border_color=00ffff&bg_color=0d1117&show_icons=true&icon_color=00ffff)](https://github.com/SARAMALI15792/chain_lit_bot_model)
-
-[![URL Converter](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=url-to-textconverter-&theme=nightowl&show_owner=true&border_color=00ffff&bg_color=0d1117&show_icons=true&icon_color=00ffff)](https://github.com/SARAMALI15792/url-to-textconverter-)
-
-[![Browser Use Controller](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=browser_use_controller&theme=nightowl&show_owner=true&border_color=00ffff&bg_color=0d1117&show_icons=true&icon_color=00ffff)](https://github.com/SARAMALI15792/browser_use_controller.git)
-
-</div>
-
----
-
-### 📊 **GitHub Stats** 📊
-
-<div align="center" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px">
-
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SARAMALI15792&theme=github_dark&bg_color=0d1117&border_color=00ffff)
-![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SARAMALI15792&theme=github_dark&bg_color=0d1117&border_color=00ffff)
-
-</div>
-
----
-
-### 🌐 **Connect With Me** 🌐
-
-<div align="center" style="display: flex; gap: 15px; justify-content: center">
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&effect=3d&animation=glow)](https://twitter.com/saramali80)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&effect=3d&animation=glow)](mailto:saramali15792@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&effect=3d&animation=glow)](https://github.com/SARAMALI15792)
-
-</div>
-
----
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
