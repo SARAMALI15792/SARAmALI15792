@@ -49,14 +49,6 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 | ✅ **Governed & Measurable** | Every agent has clear success criteria |
 | 🚀 **Shipped, not demoed** | Production-grade from day one |
 
-### 🤖 Agentic Stack
-
-| Tool | Role |
-|---|---|
-| **Claude Code** | AI-first development & agentic coding |
-| **Gemini CLI** | Command-line AI workflows & tooling |
-| **A2A Protocol** | Agent-to-agent communication layer |
-| **MCP Servers** | Tool-integrated agent architectures |
 
 ---
 
