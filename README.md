@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <div align="center">
-  <img src="./banner.svg" alt="Saram Ali — Agentic AI Engineer" width="100%"/>
+  <img src="./profile-header.svg" alt="Saram Ali — Agentic AI Engineer" width="100%"/>
 </div>
 
 <br/>
