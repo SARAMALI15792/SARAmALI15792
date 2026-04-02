@@ -68,6 +68,20 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SARAMALI15792&theme=radical&hide_border=false)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
+
+---
+
 ## 🐍 Contribution Snake
 
 <div align="center">
