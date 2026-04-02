@@ -72,11 +72,13 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SARAMALI15792&theme=radical&hide_border=false)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SARAMALI15792&theme=react-dark&hide_border=false)
 
 </div>
 
