@@ -14,6 +14,8 @@ import pathlib
 import urllib.error
 import urllib.request
 
+from termframe import frame, BAR
+
 QUERY = """
 query($login:String!){
   user(login:$login){
@@ -87,14 +89,16 @@ def level(count, th):
     return 1 + sum(count > t for t in th)
 
 
-def build(cal, reveal):
+def build(cal, reveal, title):
     weeks = cal["weeks"]
     days = [d for w in weeks for d in w["contributionDays"]]
     th = thresholds(d["contributionCount"] for d in days)
 
-    w = PAD_L + len(weeks) * (CELL + GAP) + 10
-    h = PAD_T + 7 * (CELL + GAP) + 24
+    w = PAD_L + len(weeks) * (CELL + GAP) + 10 + 2 * 18
+    h = BAR + 8 + PAD_T + 7 * (CELL + GAP) + 24 + 18
     step = reveal / max(1, len(weeks))
+
+    chrome, (ox, oy, _bw, _bh) = frame(w, h, title, uid="h")
 
     cells, labels, seen = [], [], set()
     for x, week in enumerate(weeks):
@@ -102,8 +106,8 @@ def build(cal, reveal):
             # rows are keyed off the real weekday: the first and last weeks of
             # the range are partial, so position can't come from list index
             dow = _dow(day["date"])
-            cx = PAD_L + x * (CELL + GAP)
-            cy = PAD_T + dow * (CELL + GAP)
+            cx = ox + PAD_L + x * (CELL + GAP)
+            cy = oy + PAD_T + dow * (CELL + GAP)
             lv = level(day["contributionCount"], th)
             fill = EMPTY if lv == 0 else LEVELS[lv - 1]
             begin = x * step + dow * step * 0.12
@@ -118,25 +122,25 @@ def build(cal, reveal):
         if month not in seen and int(first[8:10]) <= 7:
             seen.add(month)
             labels.append(
-                f'<text x="{PAD_L + x * (CELL + GAP):.1f}" y="{PAD_T - 6:.1f}">'
+                f'<text x="{ox + PAD_L + x * (CELL + GAP):.1f}" y="{oy + PAD_T - 6:.1f}">'
                 f"{MONTHS[int(month) - 1]}</text>"
             )
 
     for i, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
         labels.append(
-            f'<text x="0" y="{PAD_T + i * (CELL + GAP) + CELL - 1:.1f}">{name}</text>'
+            f'<text x="{ox:.1f}" y="{oy + PAD_T + i * (CELL + GAP) + CELL - 1:.1f}">{name}</text>'
         )
 
     total = cal["totalContributions"]
     footer = (
-        f'<text x="{PAD_L:.1f}" y="{h - 6:.1f}">{total:,} contributions in the last year'
+        f'<text x="{ox + PAD_L:.1f}" y="{h - 14:.1f}">{total:,} contributions in the last year'
         f'</text>'
     )
 
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w:.0f}" height="{h:.0f}" '
         f'viewBox="0 0 {w:.1f} {h:.1f}" role="img">'
-        f'<rect width="100%" height="100%" rx="8" fill="{BG}"/>'
+        f"{chrome}"
         f"{''.join(cells)}"
         f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" '
         f'font-size="9" fill="{TEXT}">{"".join(labels)}{footer}</g></svg>'
@@ -154,11 +158,12 @@ def main():
     p.add_argument("login")
     p.add_argument("-o", "--out", default="contrib-heatmap.svg")
     p.add_argument("--reveal", type=float, default=2.2, help="seconds for the full sweep")
+    p.add_argument("--title", default="saram@github: ~$ ./contributions.sh")
     a = p.parse_args()
 
     cal = load(a.login, os.environ.get("GITHUB_TOKEN"))
     with open(a.out, "w") as f:
-        f.write(build(cal, a.reveal))
+        f.write(build(cal, a.reveal, a.title))
     print(f"{a.out}: {cal['totalContributions']} contributions, {len(cal['weeks'])} weeks")
 
 
