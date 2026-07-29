@@ -5,6 +5,9 @@ on:
     - cron: "17 4 * * *"   # daily, off the hour to dodge peak-minute queueing
   workflow_dispatch:
   push:
+    # main only: on a feature branch this commits regenerated art to that
+    # branch, which then conflicts with main's own regenerated art on merge
+    branches: [main]
     paths:
       - scripts/**
       - .github/workflows/update-profile-art.yml

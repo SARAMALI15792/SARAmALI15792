@@ -7,8 +7,6 @@
      wordmark: python scripts/make_wordmark_svg.py SARAM -o wordmark.svg
      how the wordmark is built: docs/3d-ascii-wordmark.md -->
 
-<h3><code>saram@github ~ $ whoami</code></h3>
-
 <table>
 <tr>
 <td valign="top"><img src="./profile-ascii.svg" width="370" alt="Saram Ali — ASCII portrait" /></td>
@@ -20,8 +18,6 @@
 
 <!-- animated contribution graph: real data, cells reveal week by week
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
-
-<h3><code>saram@github ~ $ ./contributions.sh</code></h3>
 
 <img src="./contrib-heatmap.svg" width="860" alt="Saram's GitHub contribution graph — auto-refreshed daily" />
 
