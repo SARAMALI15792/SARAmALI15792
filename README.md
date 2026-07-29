@@ -110,7 +110,7 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 ![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=SARAMALI15792&theme=radical&hide_border=false)
+<img src="./streak-card.svg" width="495" alt="GitHub streak — generated daily from the contribution API" />
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
