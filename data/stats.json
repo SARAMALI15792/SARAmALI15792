@@ -1,0 +1,68 @@
+{
+ "commits": 194,
+ "contributed": 17,
+ "followers": 22,
+ "issues": 4,
+ "languages": {
+  "Batchfile": {
+   "color": "#C1F12E",
+   "size": 193
+  },
+  "C++": {
+   "color": "#f34b7d",
+   "size": 18095
+  },
+  "CSS": {
+   "color": "#663399",
+   "size": 106276
+  },
+  "Dockerfile": {
+   "color": "#384d54",
+   "size": 3212
+  },
+  "HTML": {
+   "color": "#e34c26",
+   "size": 2421
+  },
+  "JavaScript": {
+   "color": "#f1e05a",
+   "size": 644517
+  },
+  "Jupyter Notebook": {
+   "color": "#DA5B0B",
+   "size": 235227
+  },
+  "Mako": {
+   "color": "#7e858d",
+   "size": 635
+  },
+  "PLpgSQL": {
+   "color": "#336790",
+   "size": 6461
+  },
+  "PowerShell": {
+   "color": "#012456",
+   "size": 224461
+  },
+  "Python": {
+   "color": "#3572A5",
+   "size": 2054848
+  },
+  "Shell": {
+   "color": "#89e051",
+   "size": 875551
+  },
+  "TeX": {
+   "color": "#3D6117",
+   "size": 14253
+  },
+  "TypeScript": {
+   "color": "#3178c6",
+   "size": 1917759
+  }
+ },
+ "prs": 75,
+ "repos": 29,
+ "reviews": 0,
+ "stars": 116
+}
