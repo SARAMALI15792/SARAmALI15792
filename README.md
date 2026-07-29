@@ -1,3 +1,43 @@
+<div align="center">
+
+<!-- hero: monochrome ASCII portrait (types in row by row) beside the extruded
+     3d ascii wordmark (wipes in left-to-right, then rocks on its vertical axis).
+     widths are picked so both panels land at the same height.
+     portrait: python scripts/make_ascii_svg.py source-photo.jpg -o profile-ascii.svg
+     wordmark: python scripts/make_wordmark_svg.py SARAM -o wordmark.svg
+     how the wordmark is built: docs/3d-ascii-wordmark.md -->
+
+<h3><code>saram@github ~ $ whoami</code></h3>
+
+<table>
+<tr>
+<td valign="top"><img src="./profile-ascii.svg" width="370" alt="Saram Ali — ASCII portrait" /></td>
+<td valign="top"><img src="./wordmark.svg" width="490" alt="SARAM — 3D ASCII wordmark" /></td>
+</tr>
+</table>
+
+<br>
+
+<!-- animated contribution graph: real data, cells reveal week by week
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+
+<h3><code>saram@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Saram's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+
+<h3><code>saram@github ~ $ ./links.sh</code></h3>
+
+<p><b>AI Engineer · Agentic Systems · Automation</b></p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-saram--ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saram-ali-099b9b2a4/)
+![OpenClaw Contributor](https://img.shields.io/badge/OpenClaw-Contributor-f59e0b?style=for-the-badge&logo=openclaw&logoColor=white)
+
+</div>
+
+---
+
 <div align="right">
   
 ![Profile Views](https://komarev.com/ghpvc/?username=SARAMALI15792&color=blueviolet&style=flat-square&label=Profile+Views)

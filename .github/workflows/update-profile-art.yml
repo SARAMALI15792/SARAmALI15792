@@ -1,0 +1,47 @@
+name: update profile art
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # daily, off the hour to dodge peak-minute queueing
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/**
+      - .github/workflows/update-profile-art.yml
+
+permissions:
+  contents: write
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: regenerate heatmap
+        env:
+          # GITHUB_TOKEN works for public contribution counts; set the
+          # PROFILE_TOKEN secret (PAT, read:user) if you want private ones too
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/make_heatmap_svg.py "${{ github.repository_owner }}" -o contrib-heatmap.svg
+
+      # portrait and wordmark only change when the photo or the scripts do,
+      # but they're cheap and regenerating keeps all three in one place
+      - name: regenerate portrait + wordmark
+        run: |
+          python scripts/make_ascii_svg.py source-photo.jpg -o profile-ascii.svg
+          python scripts/make_wordmark_svg.py SARAM -o wordmark.svg
+
+      - name: commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-ascii.svg wordmark.svg contrib-heatmap.svg data/
+          git diff --staged --quiet || git commit -m "chore: refresh profile art"
+          git push
