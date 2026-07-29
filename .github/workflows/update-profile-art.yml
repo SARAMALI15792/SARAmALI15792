@@ -27,7 +27,7 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
-      - name: regenerate heatmap + streak
+      - name: regenerate heatmap + streak + stat cards
         env:
           # GITHUB_TOKEN works for public contribution counts; set the
           # PROFILE_TOKEN secret (PAT, read:user) if you want private ones too
@@ -35,6 +35,7 @@ jobs:
         run: |
           python scripts/make_heatmap_svg.py "${{ github.repository_owner }}" -o contrib-heatmap.svg
           python scripts/make_streak_svg.py  "${{ github.repository_owner }}" -o streak-card.svg
+          python scripts/make_stat_cards_svg.py "${{ github.repository_owner }}"
 
       # portrait and wordmark only change when the photo or the scripts do,
       # but they're cheap and regenerating keeps all three in one place
@@ -47,6 +48,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A profile-ascii.svg wordmark.svg contrib-heatmap.svg streak-card.svg data/
+          git add -A profile-ascii.svg wordmark.svg contrib-heatmap.svg streak-card.svg \
+                     stats-card.svg langs-card.svg activity-card.svg data/
           git diff --staged --quiet || git commit -m "chore: refresh profile art"
           git push

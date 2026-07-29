@@ -108,13 +108,20 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+<!-- all four cards are generated into this repo by
+     .github/workflows/update-profile-art.yml and share the terminal frame
+     from scripts/termframe.py -- no third-party image hosts left to break -->
 
-<img src="./streak-card.svg" width="495" alt="GitHub streak — generated daily from the contribution API" />
-
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SARAMALI15792&theme=react-dark&hide_border=false)
+<table>
+<tr>
+<td><img src="./stats-card.svg" width="495" alt="GitHub stats" /></td>
+<td><img src="./streak-card.svg" width="495" alt="Contribution streak" /></td>
+</tr>
+<tr>
+<td><img src="./langs-card.svg" width="495" alt="Top languages" /></td>
+<td><img src="./activity-card.svg" width="495" alt="Weekly contribution activity" /></td>
+</tr>
+</table>
 
 </div>
 
