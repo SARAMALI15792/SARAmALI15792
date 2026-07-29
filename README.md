@@ -43,7 +43,7 @@
 # Hi there! 👋 I'm
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=9B59B6&center=true&vCenter=true&width=435&lines=SARAM+ALI;Agentic+AI+Engineer;AI-Native+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=9B59B6&center=true&vCenter=true&width=435&lines=SARAM+ALI;Agentic+AI+Engineer;AI-Native+Developer)](https://git.io/typing-svg)
 
 </div>
 
@@ -110,20 +110,12 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 ![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=SARAMALI15792&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SARAMALI15792&theme=radical&hide_border=false)
+![GitHub Streak](https://streak-stats.demolab.com/?user=SARAMALI15792&theme=radical&hide_border=false)
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SARAMALI15792&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SARAMALI15792&theme=react-dark&hide_border=false)
 
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -143,7 +135,7 @@ I follow **SDD-RI** as my development philosophy. I start with a **specification
 
 ### 👟 [Sneakora Tech](https://github.com/SARAMALI15792/Sneakora_tec)
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=SARAMALI15792&repo=Sneakora_tec&theme=merko&hide_border=false)](https://github.com/SARAMALI15792/Sneakora_tec)
+[![Repo Card](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=SARAMALI15792&repo=Sneakora_tec&theme=merko&hide_border=false)](https://github.com/SARAMALI15792/Sneakora_tec)
 
 **Tech Stack:** `AI` `Automation` `Python` `FastAPI`
 
